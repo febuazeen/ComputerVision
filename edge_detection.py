@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # =========================
 # 1. INPUT GAMBAR
 # =========================
-image = cv2.imread('G:/1. KULIYAH/semester6/Computer Vision/image10.jpg')
+image = cv2.imread('G:/1. KULIYAH/semester6/Computer Vision/image10.jpg') #rubah ke path gambar
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 # =========================
